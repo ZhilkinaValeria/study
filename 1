@@ -1,1 +1,12 @@
+data = {
+    'key1': 10,
+    'key2': 25,
+    'key3': 15,
+    'key4': 30,
+    'key5': 5
+}
+
+result = {key: True if value < 20 else False for key, value in data.items()}
+
+print(result)
 
